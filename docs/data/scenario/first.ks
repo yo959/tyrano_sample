@@ -1,37 +1,38 @@
 *start
 
-[title name="がんばれ合コンマスター"]
+[title name="がんばれ合コンマン"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「頑張れ合コンマスター」[l][r]
+「がんばれ合コンマン」[l][r]
 
-合コンに来た。[l][r]
+いつものように合コンに来た。[l][r]
 
-幸運にも、目の前にタイプの人が現れた。
-
+幸運にも、目の前にタイプの人が現れた。 [1][r]
 必ず、連絡先をゲットしなければならぬと決意した。[l][r]
 
 (中略)[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+ああ、いつもこうだ、この後どうすれば連絡先をゲットできるのか、、[l][r]
+１０戦１０敗、皮肉にもあだ名は合コンマンである。[1][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
+あなたは...[l][r]
+
+[link target=*tag_magic] →手品を披露する [endlink][r]
 [link target=*tag_run] →走る [endlink][r]
 [s]
 
-*tag_sleep
+*tag_magic
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=magic.jpeg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+目の前には目を輝かせた人、そしてインスタグラムのQRコードが差し出される。[l][r]
+ひどく赤面した。[r]
 
-【 BAD END 】[l][cm]
+【 GOOD END 】[l][cm]
 
 [jump target=*start]
 
@@ -40,9 +41,10 @@
 [bg storage=run.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+黒い風のように走った。[l][r]
+緊張のあまり話しかけられず、走った。[1][r]
+次はどこに行こうか。[r]
 
-【 GOOD END 】[l][cm]
+【 BAD END 】[l][cm]
 
 [jump target=*start]
